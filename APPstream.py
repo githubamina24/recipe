@@ -6,7 +6,7 @@
 #import word2vec_Rec
 import streamlit as st
 from PIL import Image
-from SessionState import SessionState
+import SessionState
 import pandas as pd
 import nltk
 import altair as alt
