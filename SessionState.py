@@ -22,10 +22,10 @@ result:
 try:
     import streamlit.ReportThread as ReportThread
     from streamlit.server.Server import Server
-except Exception:
+#except Exception:
     # Streamlit >= 0.65.0
-    import streamlit.ReportThread as ReportThread
-    from streamlit.server.server import Server
+    #import streamlit.ReportThread as ReportThread
+    #from streamlit.server.server import Server
 
 
 class SessionState(object):
